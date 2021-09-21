@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<konferencia>
+    <cim>Az XML</cim>
+    <hallgatok>
+        <hallgato>
+            <nev>Dani</nev>
+            <lakcim>Forró</lakcim>
+        </hallgato>
+    </hallgatok>
+    <helyszin>Miskolc</helyszin>
+    <eloado>
+        <nev>Bednarik László</nev>
+        <lakcim>Miskolc</lakcim>   
+        <adoszam> 1234566789</adoszam>
+    </eloado>
+    <datum>2021.09.21</datum>
+</konferencia>

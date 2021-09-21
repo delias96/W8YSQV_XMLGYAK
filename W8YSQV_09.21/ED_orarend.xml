@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<orarend>
+<ora id="1" tipus="Elmélet">
+<targy>Webalkalmazás Java nyelven</targy>
+<idopont>
+    <nap>Hétfő</nap>
+    <tol>10</tol>
+    <ig>12</ig>
+</idopont>
+<helyszin>Miskolc</helyszin>
+<oktato>Krizsán Zoltán</oktato>
+<szak>Gépész</szak>
+</ora>
+<ora id="2" tipus="Gyakorlat">
+<targy>Webalkalmazás Java nyelven</targy>
+<idopont>
+    <nap>Kedd</nap>
+    <tol>10</tol>
+    <ig>12</ig>
+</idopont>
+<helyszin>Miskolc</helyszin>
+<oktato>Krizsán Zoltán</oktato>
+<szak>Gépész</szak>
+</ora>
+<ora id="3" tipus="Elmélet">
+<targy>Adatkezelés XML-ben</targy>
+<idopont>
+    <nap>kedd</nap>
+    <tol>12</tol>
+    <ig>14</ig>
+</idopont>
+<helyszin>Miskolc</helyszin>
+<oktato>Bednarik László</oktato>
+<szak>Gépész</szak>
+</ora>
+<ora id="4" tipus="Gyakorlat">
+<targy>Adatkezelés XML-ben</targy>
+<idopont>
+    <nap>kedd</nap>
+    <tol>14</tol>
+    <ig>16</ig>
+</idopont>
+<helyszin>Miskolc</helyszin>
+<oktato>Bednarik László</oktato>
+<szak>Gépész</szak>
+</ora>
+<ora id="5" tipus="Gyakorlat">
+<targy>Szoftver tesztelés</targy>
+<idopont>
+    <nap>Szerda</nap>
+    <tol>8</tol>
+    <ig>10</ig>
+</idopont>
+<helyszin>Miskolc</helyszin>
+<oktato>Judit tanárnő</oktato>
+<szak>Gépész</szak>
+</ora>
+<ora id="6" tipus="Elmélet">
+<targy>Szoftver tesztelés</targy>
+<idopont>
+    <nap>szerda</nap>
+    <tol>10</tol>
+    <ig>12</ig>
+</idopont>
+<helyszin>Miskolc</helyszin>
+<oktato>Tompa Tamás</oktato>
+<szak>Gépész</szak>
+</ora>
+<ora id="7" tipus="Elmélet">
+<targy>Integrált vállalati rendszerek</targy>
+<idopont>
+    <nap>szerda</nap>
+    <tol>14</tol>
+    <ig>16</ig>
+</idopont>
+<helyszin>Miskolc</helyszin>
+<oktato>DR Schamad</oktato>
+<szak>Gépész</szak>
+</ora>
+<ora id="8" tipus="Gyakorlat">
+<targy>Integrált vállalati rendszerek</targy>
+<idopont>
+    <nap>Szerda</nap>
+    <tol>16</tol>
+    <ig>18</ig>
+</idopont>
+<helyszin>Miskolc</helyszin>
+<oktato>Mónika tanárnő</oktato>
+<szak>Gépész</szak>
+</ora>
+</orarend>
