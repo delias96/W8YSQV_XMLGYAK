@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE konyvek SYSTEM "ED_konyv.dtd">
+<konyvek>
+<konyv id = "1">
+<cim>Az xml</cim>
+<kiadaseve>2000</kiadaseve>
+<kiado>Libri könyv kiadó</kiado>
+    <szerzok>
+        <szerzo>Horváth Béla</szerzo>
+        <szerzo>Kelemen Árpád</szerzo>
+    </szerzok>
+    <absztrakt> XML detail </absztrakt>
+</konyv>
+<konyv id = "2">
+<cim>Tiszta kód</cim>
+<kiadaseve>1991</kiadaseve>
+<kiado>Alexandra könyv kiadó</kiado>
+    <szerzok>
+        <szerzo>Kiss Jenő</szerzo>
+    </szerzok>
+    <absztrakt> XML detail2 </absztrakt>
+</konyv>
+<konyv id = "3">
+<cim>A React csodálatos világa</cim>
+<kiadaseve>2010</kiadaseve>
+<kiado>Libri könyv kiadó</kiado>
+    <szerzok>
+        <szerzo>Kiss Imre</szerzo>
+    </szerzok>
+    <absztrakt> XML detail3 </absztrakt>
+</konyv>
+</konyvek>
