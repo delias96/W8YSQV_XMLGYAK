@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="konyvek" type="konyvekType"/>
+  <xs:complexType name="szerzokType">
+    <xs:sequence>
+      <xs:element name="szerzo" maxOccurs="unbounded" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Horváth Béla"/>
+            <xs:enumeration value="Kelemen Árpád"/>
+            <xs:enumeration value="Kiss Jenő"/>
+            <xs:enumeration value="Kiss Imre"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="konyvType">
+    <xs:sequence>
+      <xs:element name="cim">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Az xml"/>
+            <xs:enumeration value="Tiszta kód"/>
+            <xs:enumeration value="A React csodálatos világa"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="kiadaseve">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="2000"/>
+            <xs:enumeration value="1991"/>
+            <xs:enumeration value="2010"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="kiado">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Libri könyv kiadó"/>
+            <xs:enumeration value="Alexandra könyv kiadó"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="szerzokType" name="szerzok"/>
+      <xs:element name="absztrakt">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value=" XML detail "/>
+            <xs:enumeration value=" XML detail2 "/>
+            <xs:enumeration value=" XML detail3 "/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="id" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="konyvekType">
+    <xs:sequence>
+      <xs:element type="konyvType" name="konyv" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

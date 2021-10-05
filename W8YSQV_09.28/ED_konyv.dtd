@@ -1,10 +1,8 @@
 <?xml encoding="UTF-8"?>
 
-<!ELEMENT konyvek (konyv)+>
-<!ATTLIST konyvek
-  xmlns CDATA #FIXED ''>
+<!ELEMENT konyvek (konyv)*>
 
-<!ELEMENT konyv (cim,kiadaseve,kiado,szerzok,absztrakt)>
+<!ELEMENT konyv (cim,kiadaseve,kiado,szerzok+,absztrakt?)>
 <!ATTLIST konyv
   xmlns CDATA #FIXED ''
   id CDATA #REQUIRED>
