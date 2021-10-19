@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<szemelyek>
+	<szemely id="1"> 
+		<nev>Éliás Dániel</nev>
+		<kor>25</kor>
+		<varos>Forró</varos>
+	</szemely>
+	<szemely id="2"> 
+		<nev>Horváth Ferenc</nev>
+		<kor>54</kor>
+		<varos>Puding</varos>
+	</szemely>
+	<szemely id="3"> 
+		<nev>Kifáradt Elemér</nev>
+		<kor>12</kor>
+		<varos>Bélapáti</varos>
+	</szemely>
+</szemelyek>

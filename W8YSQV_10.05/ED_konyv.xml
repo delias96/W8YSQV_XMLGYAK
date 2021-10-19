@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<konyvek xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ED_konyXSD.xsd">
+<konyvek xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ED_kony.xsd">
 <konyv id = "1">
 <cim>Az xml</cim>
 <kiadaseve>2000</kiadaseve>
