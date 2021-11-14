@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/studentW8ysqv" xmlns:tns="http://www.example.org/studentW8ysqv" elementFormDefault="qualified">
+<xs:element name="class">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="osztaly" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="keresztnev" type="xs:string" />
+							<xs:element name="vezeteknev" type="xs:string" />
+							<xs:element name="becenev" type="xs:string" />
+							<xs:element name="kor" type="xs:integer"	maxOccurs="unbounded"/>
+						</xs:sequence>
+						<xs:attribute name="id" use="required"	type="xs:integer" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</schema>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+<user id="1">
+<firstname>Dániel</firstname>
+<lastname>Éliás</lastname>
+<profession>Webfejlesztő</profession>
+</user>
+<user id="2">
+<firstname>Imre</firstname>
+<lastname>Kelemen</lastname>
+<profession>Zenész</profession>
+</user>
+<user id="3">
+<firstname>Béla</firstname>
+<lastname>Álló</lastname>
+<profession>Szerszám lakatos</profession>
+</user>
+</users>
