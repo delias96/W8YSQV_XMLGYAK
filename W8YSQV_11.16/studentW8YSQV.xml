@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="studentW8YSQV.xsl"?>
+<class>
+	<student id="1">
+		<vezeteknev>Elias</vezeteknev>
+		<keresztnev>Daniel</keresztnev>
+		<becenev>zumi</becenev>
+		<kor>25</kor>
+	</student>
+	<student id="2">
+		<vezeteknev>Horvath</vezeteknev>
+		<keresztnev>Bela</keresztnev>
+		<becenev>kalapos</becenev>
+		<kor>32</kor>
+	</student>
+	<student id="3">
+		<vezeteknev>Szakaszos</vezeteknev>
+		<keresztnev>Erzsebet</keresztnev>
+		<becenev>Illike</becenev>
+		<kor>16</kor>
+	</student>
+</class>
