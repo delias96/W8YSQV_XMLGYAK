@@ -1,0 +1,10 @@
+<html>
+    <body>
+        <h2>Hallgatok adatai:</h2>
+        <table border="1">
+            <tr>
+                <th>id</th><th>Vezeteknev</th><th>Keresztnev</th><th>Becenev</th><th>Kor</th><th>Fokozat</th>
+            </tr>
+        </table>
+    </body>
+</html>

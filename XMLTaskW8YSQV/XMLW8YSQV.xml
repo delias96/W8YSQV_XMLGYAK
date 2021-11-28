@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rendelesek>
+	<rendeles id="1">
+		<termekek>Fogkefe</termekek>
+		<teljesAr>400FT</teljesAr>
+		<idopont>2021.10.27</idopont>
+		<ugyfel id="1">
+			<nev>Philips</nev>
+			<adoAzonosito>11221100</adoAzonosito>
+			<cim>
+				<orszag>Kína</orszag>
+				<iranyitoszam>21210</iranyitoszam>
+				<varos>Peking</varos>
+				<ut>Yin út</ut>
+				<hazszam>35</hazszam>
+			</cim>
+		</ugyfel>
+		<raktar id="1">
+			<mennyiseg>12</mennyiseg>
+			<termekek>Fogkefe</termekek>
+			<ugyfelAzonosito>1</ugyfelAzonosito>
+		</raktar>
+		<vasarlo id="1">
+			<nev>Horváth Rozális</nev>
+			<telefonszam>06302221234</telefonszam>
+			<cim>
+				<orszag>Magyaroszág</orszag>
+				<iranyitoszam>6000</iranyitoszam>
+				<varos>Kecskemét</varos>
+				<ut>Ady Endre</ut>
+				<hazszam>15</hazszam>
+			</cim>
+		</vasarlo>
+	</rendeles>
+	<rendeles id="2">
+		<termekek>Zuhany rózsa</termekek>
+		<teljesAr>1200FT</teljesAr>
+		<idopont>2021.11.03</idopont>
+		<ugyfel id="2">
+			<nev>Horváth és társa kft</nev>
+			<adoAzonosito>01235476</adoAzonosito>
+			<cim>
+				<orszag>Magyarország</orszag>
+				<iranyitoszam>3849</iranyitoszam>
+				<varos>Forró</varos>
+				<ut>Fő út</ut>
+				<hazszam>111</hazszam>
+			</cim>
+		</ugyfel>
+		<raktar id="23">
+			<mennyiseg>2</mennyiseg>
+			<termekek>Zuhany rózsa</termekek>
+			<ugyfelAzonosito>2</ugyfelAzonosito>
+		</raktar>
+		<vasarlo id="5">
+			<nev>Horváth Rozális</nev>
+			<telefonszam>06302221234</telefonszam>
+			<cim>
+				<orszag>Magyaroszág</orszag>
+				<iranyitoszam>6000</iranyitoszam>
+				<varos>Kecskemét</varos>
+				<ut>Ady Endre</ut>
+				<hazszam>15</hazszam>
+			</cim>
+		</vasarlo>
+	</rendeles>
+	<rendeles id="3">
+		<termekek>Televizió</termekek>
+		<teljesAr>35000FT</teljesAr>
+		<idopont>2021.11.21</idopont>
+		<ugyfel id="">
+			<nev>Philips</nev>
+			<adoAzonosito>11221100</adoAzonosito>
+			<cim>
+				<orszag>Kína</orszag>
+				<iranyitoszam>21210</iranyitoszam>
+				<varos>Peking</varos>
+				<ut>Yang út</ut>
+				<hazszam>112</hazszam>
+			</cim>
+		</ugyfel>
+		<raktar id="14">
+			<mennyiseg>15</mennyiseg>
+			<termekek>Televizió</termekek>
+			<ugyfelAzonosito>1</ugyfelAzonosito>
+		</raktar>
+		<vasarlo id="5">
+			<nev>Éliás Dániel</nev>
+			<telefonszam>06306832678</telefonszam>
+			<cim>
+				<orszag>Magyaroszág</orszag>
+				<iranyitoszam>3849</iranyitoszam>
+				<varos>Forró</varos>
+				<ut>Ady Endre</ut>
+				<hazszam>1</hazszam>
+			</cim>
+		</vasarlo>
+	</rendeles>
+</rendelesek>
