@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rendelesek>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><rendelesek>
 	<rendeles id="1">
-		<termekek>Fogkefe</termekek>
+		<termekek>asd</termekek>
 		<teljesAr>400FT</teljesAr>
 		<idopont>2021.10.27</idopont>
 		<ugyfel id="1" rid="1">
@@ -33,7 +32,7 @@
 		</vasarlo>
 	</rendeles>
 	<rendeles id="2">
-		<termekek>Zuhany rózsa</termekek>
+		<termekek>ads</termekek>
 		<teljesAr>1200FT</teljesAr>
 		<idopont>2021.11.03</idopont>
 		<ugyfel id="2" rid="2">
@@ -65,7 +64,7 @@
 		</vasarlo>
 	</rendeles>
 	<rendeles id="3">
-		<termekek>Televizió</termekek>
+		<termekek>asd</termekek>
 		<teljesAr>35000FT</teljesAr>
 		<idopont>2021.11.21</idopont>
 		<ugyfel id="1" rid="3">
