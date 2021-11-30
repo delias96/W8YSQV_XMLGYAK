@@ -33,7 +33,7 @@ public class DomModifyW8YSQV {
         Document doc = dBuilder.parse(xmlFile);
         //Normalizálás
         doc.getDocumentElement().normalize();
-        //A versenyzo elemek kiválasztása.
+        //A rendeles elemek kiválasztása.
         NodeList nList = doc.getElementsByTagName("rendeles");
         //ciklus a változtatásokhoz
         for (int i = 0; i < nList.getLength(); i++) { 
