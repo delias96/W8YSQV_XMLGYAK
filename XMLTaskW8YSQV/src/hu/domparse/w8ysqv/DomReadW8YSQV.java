@@ -55,6 +55,8 @@ public class DomReadW8YSQV {
 				listRaktar(doc, id);
 				System.out.println(termekek + " Vásárló adatai:\n");
 				listVasarlo(doc, id);
+				System.out.println(termekek + " Számla adatai:\n");
+				listSzamla(doc, id);
 				System.out.println("\n");
 			}
 		}
@@ -131,5 +133,27 @@ public class DomReadW8YSQV {
 			}
 		}
 	}
+	// Számla adatainak kiírása az elõzõ módszer alapján
+		public static void listSzamla(Document doc, String Rid) {
+			NodeList nList = doc.getElementsByTagName("szamla");
+			for (int i = 0; i < nList.getLength(); i++) {
+				Node nNode = nList.item(i);
+				if (nNode.getNodeType() == Node.ELEMENT_NODE) {
+					Element elem = (Element) nNode;
+					if (elem.getAttribute("rid").toString().equals(Rid)) {
+						String id = elem.getAttribute("id");
+						String rid = elem.getAttribute("rid");
+						Node node1 = elem.getElementsByTagName("teljesAr").item(0);
+						String teljesar = node1.getTextContent();
+						Node node2 = elem.getElementsByTagName("idopont").item(0);
+						String idopont = node2.getTextContent();
+						System.out.println("Számla id: " + id);
+						System.out.println("Rendeles id-a: " + rid);
+						System.out.println("Számla teljes összege: " + teljesar);
+						System.out.println("Számla létrejötte: " + idopont + "\n");
+					}
+				}
+			}
+		}
 
 }
