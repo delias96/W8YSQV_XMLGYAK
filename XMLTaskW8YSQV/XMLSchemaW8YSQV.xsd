@@ -28,6 +28,18 @@
 					<xs:selector xpath="rendelestype" />
 					<xs:field xpath="id" />
 				</xs:key>
+				<xs:key name="vasarloid">
+					<xs:selector xpath="vasarlotype" />
+					<xs:field xpath="id" />
+				</xs:key>
+				<xs:key name="raktarid">
+					<xs:selector xpath="raktartype" />
+					<xs:field xpath="id" />
+				</xs:key>
+				<xs:key name="szamlaid">
+					<xs:selector xpath="szamlatype" />
+					<xs:field xpath="id" />
+				</xs:key>
 				<xs:keyref name="ugyfelRef" refer="id">
 					<xs:selector xpath="ugyfeltype" />
 					<xs:field xpath="rid" />
